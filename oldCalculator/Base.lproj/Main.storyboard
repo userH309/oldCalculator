@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -9,8 +9,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="OriyaSangamMN.ttc">
-            <string>OriyaSangamMN-Bold</string>
+        <array key="prstart.ttf">
+            <string>PressStartReg</string>
         </array>
     </customFonts>
     <scenes>
@@ -19,14 +19,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="oldCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space-bg" translatesAutoresizingMaskIntoConstraints="NO" id="W9h-Db-JuQ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="uby-rS-s7r">
-                                <rect key="frame" x="0.0" y="496" width="320" height="72"/>
+                                <rect key="frame" x="0.0" y="408" width="320" height="72"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="Ghx-vi-zJ6">
                                 <rect key="frame" x="16" y="27" width="288" height="70"/>
@@ -36,8 +36,8 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddg-F9-2rA">
-                                <rect key="frame" x="20" y="46" width="280" height="34"/>
-                                <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="24"/>
+                                <rect key="frame" x="20" y="60" width="280" height="17"/>
+                                <fontDescription key="fontDescription" name="PressStartReg" family="Press Start" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -157,7 +157,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="W9h-Db-JuQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2ua-JI-daK"/>
-                            <constraint firstItem="ddg-F9-2rA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="3Hy-4v-ZMu"/>
+                            <constraint firstItem="ddg-F9-2rA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="3Hy-4v-ZMu"/>
                             <constraint firstItem="l4x-Zn-RPv" firstAttribute="leading" secondItem="s3u-l3-wAZ" secondAttribute="trailing" constant="15" id="3jz-II-Raw"/>
                             <constraint firstItem="CAM-A1-kYY" firstAttribute="top" secondItem="rab-vm-Upi" secondAttribute="bottom" constant="8" id="4ZN-Q3-rHl"/>
                             <constraint firstItem="l4x-Zn-RPv" firstAttribute="leading" secondItem="cix-xF-OZy" secondAttribute="leading" id="5Fa-yD-83t"/>
