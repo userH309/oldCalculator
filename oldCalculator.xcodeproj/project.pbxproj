@@ -14,7 +14,7 @@
 		F20072781FB254B800BCFCC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20072761FB254B800BCFCC9 /* LaunchScreen.storyboard */; };
 		F20072831FB254B800BCFCC9 /* oldCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20072821FB254B800BCFCC9 /* oldCalculatorTests.swift */; };
 		F200728E1FB254B800BCFCC9 /* oldCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F200728D1FB254B800BCFCC9 /* oldCalculatorUITests.swift */; };
-		F251C7B41FB36107004AF8CE /* press-start in Resources */ = {isa = PBXBuildFile; fileRef = F251C7B31FB36107004AF8CE /* press-start */; };
+		F2D71C2F1FB36854000EA2F6 /* prstart.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2D71C2E1FB36854000EA2F6 /* prstart.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		F20072891FB254B800BCFCC9 /* oldCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oldCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F200728D1FB254B800BCFCC9 /* oldCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oldCalculatorUITests.swift; sourceTree = "<group>"; };
 		F200728F1FB254B800BCFCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F251C7B31FB36107004AF8CE /* press-start */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "press-start"; sourceTree = "<group>"; };
+		F2D71C2E1FB36854000EA2F6 /* prstart.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = prstart.ttf; path = "oldCalculator/press-start/prstart.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,7 @@
 		F20072611FB254B700BCFCC9 = {
 			isa = PBXGroup;
 			children = (
+				F2D71C2E1FB36854000EA2F6 /* prstart.ttf */,
 				F200726C1FB254B700BCFCC9 /* oldCalculator */,
 				F20072811FB254B800BCFCC9 /* oldCalculatorTests */,
 				F200728C1FB254B800BCFCC9 /* oldCalculatorUITests */,
@@ -99,7 +100,6 @@
 		F200726C1FB254B700BCFCC9 /* oldCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				F251C7B31FB36107004AF8CE /* press-start */,
 				F200726D1FB254B800BCFCC9 /* AppDelegate.swift */,
 				F200726F1FB254B800BCFCC9 /* ViewController.swift */,
 				F20072711FB254B800BCFCC9 /* Main.storyboard */,
@@ -235,10 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D71C2F1FB36854000EA2F6 /* prstart.ttf in Resources */,
 				F20072781FB254B800BCFCC9 /* LaunchScreen.storyboard in Resources */,
 				F20072751FB254B800BCFCC9 /* Assets.xcassets in Resources */,
 				F20072731FB254B800BCFCC9 /* Main.storyboard in Resources */,
-				F251C7B41FB36107004AF8CE /* press-start in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
