@@ -1,7 +1,7 @@
 # oldCalculator
 Just an old calculator!
 
-<img src="screen1.png" width="200">
+<img src="screen.png" width="200">
 
 
 The font is made by:
