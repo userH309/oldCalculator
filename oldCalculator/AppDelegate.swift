@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  oldCalculator
-//
-//  Created by userH309 on 07/11/2017.
-//  Copyright © 2017 shabibi. All rights reserved.
-//
 
 import UIKit
 
